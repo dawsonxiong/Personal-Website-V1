@@ -1,0 +1,102 @@
+/*
+This is a separate CSS file which is different from the other site.css
+ */
+/* Navigation bar */
+body {
+    margin:0;
+    background: linear-gradient(#eecda3, #ef629f);
+    height:600px
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.navBar {
+    float:left;
+}
+li.navBar a.navBar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+li.navBar a:hover:not(.current) {
+    background-color: #333;
+}
+.current {
+    background-color: deeppink;
+}
+/* Title-home page */
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    background:linear-gradient(#2193b0, #6dd5ed);
+    text-align:center;
+}
+h1 {
+    font-size:45px;
+    margin:10px;
+}
+h2 {
+    font-size: 35px;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+/* Content-sports page */
+p {
+    margin-left: 15px;
+    font-family:'Raleway',sans-serif;
+    padding-right:10em;
+    font-size: 20px;
+}
+/* Caption-sports page */
+.figure {
+    display: table;
+    margin: 0;
+}
+.figure img {
+    max-width: 100%;
+}
+.figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    background: pink;
+    padding: 10px;
+}
+#caption {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+/* Images-sports page */
+#images {
+    position:relative;
+    float: right;
+    left:-10px;
+    width:200px;
+    height:auto;
+}
+/* Image animation-sports page */
+#images img {
+    position:absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    width:200px;
+    height:auto;
+    left:-10px;
+}
+#images img.skates:hover {
+    opacity:0;
+    width:200px;
+    height:auto;
+    left:-10px;
+}

@@ -1,0 +1,97 @@
+/* Navigation bar */
+body {
+    margin:0;
+    background: linear-gradient(#eecda3, #ef629f);
+    height:900px;
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.navBar {
+    float:left;
+}
+li.navBar a.navBar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+li.navBar a:hover:not(.current) {
+    background-color: #333;
+}
+.current {
+    background-color: deeppink;
+}
+/* Title-home page */
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 19px;
+    margin-bottom:1px;
+}
+.name {
+    display:block;
+    font-size:30px;
+}
+#aboutMe {
+    font-size: 50px;
+    padding-left: 1.33em;
+    line-height: 0.6;
+}
+#dawson {
+    color:#ff6a00;
+}
+#ics {
+    color:#ff0084;
+}
+#xie {
+    color:#001aff;
+}
+#introduction {
+    display: block;
+    font-size: 42px;
+    line-height: 0;
+}
+/* Content-home page */
+p {
+    font-family:'Raleway', sans-serif;
+    font-size:20px;
+    padding-right:10em;
+}
+/* Images-home page
+Because all images are different, I went with IDs here
+ */
+img {
+    z-index:-1;
+}
+#piano {
+    position:relative;
+    width:215px;
+    height:auto;
+    top:-600px;
+    left:675px;
+}
+#man_shoots_basketball {
+    position: relative;
+    width:180px;
+    height:auto;
+    top:-600px;
+    right:-255px;
+}
+#ib_logo {
+    position:relative;
+    width:325px;
+    height:auto;
+    float:right;
+    top:-600px;
+    left:-10px;
+}
+
